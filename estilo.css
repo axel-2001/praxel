@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+
+.link a{
+    display:inline-block;
+    padding: 2px;
+}
+
+ /*.estoesunaclase se hace referencia a lo que se en cuentra dentro del atributo class de cualquier etiqueta  */
+
+
+ .logo{
+   height: 50px;
+
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    background-color: springgreen;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* etiqueta hacemos referencia a una etiqueta haciendo el nombre de esa etiqueta directamente  */
+
+a{
+    color:black;
+  padding: 1%;
+    }   
+    
+
+
+.fondo{
+    background-image: url(imagnes/fondo.jpg);
+    background-size: cover;
+    height: 300px
+}
+.caja1{
+    padding: 25px;
+    border: 25px;
+    margin: 25px;
+    height: 20px;
+  justify-content: baseline;
+  
+}
+.tarjeta{
+    margin: 10px;
+    border: 3px solid black;
+    padding: 1rem;
+    border-radius: 20px;
+    flex-basis: calc(33.33% - 30px);
+
+}
+.tarjeta img {
+    height: 150px;
+}
+.tarjeta .bottom{
+    padding: 10px;
+    background-color: darkblue;
+}
+
+.contenedor_tarjetas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    gap: 10px;
+
+
+}
+
+.head{
+    background-color: black;
+    
+}
+.tarjeta .left {
+    width: 130px;
+    background-color: red;
+    margin: 1rem 0;
+}
+img{
+    width: 100%;
+}
+
+.piso{
+    background-color: black;
+    height: 200px;
+    padding: 80px;
+}
+.footer-link{
+    color: white;
+} 
+
